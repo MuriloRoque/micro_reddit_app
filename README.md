@@ -27,7 +27,13 @@ Clone or fork this repo and play around with it as you wish
 
 - Git clone this repo and cd the to the directory.
 - Run bundle install in command line
-- Play in the console with different associations between Users, Posts and Comments
+- Run rails db:migrate in command line
+- Run rails console in command line
+- Play in the console with different associations between Users, Posts and Comments:
+
+u = User.create(:name => "your_name")
+p = Post.create(:title => "your_title", :body => "your_boby", :user_id => u.id)
+c = Comment.create(:body => "your_body", :post_id => p.id, :user_id => u.id)
 
 ### Install
 
