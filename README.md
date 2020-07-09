@@ -1,4 +1,6 @@
-> Micro- Reddit (Building with Active Record)
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Murilo-Click%20to%20Contact-brightgreen)](mailto:muriloengqui@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/MuriloRoquePai1?label=Follow%20Murilo%20on%20Twitter&style=social)](https://twitter.com/MuriloRoquePai1)
+
+# Micro- Reddit (Building with Active Record)
 
 Project based on associations between different Rails models
 
@@ -11,35 +13,18 @@ Project based on associations between different Rails models
 
 ## What it does?
 
- Creat associations between different models in RoR
+Creates associations between different models in Ruby on Rails.
 
 ## Getting Started
 
-Clone or fork this repo and play around with it as you wish
-
-### Prerequisites
-
-- Get your browser up to date
-- Ruby
-- Ruby on Rails
-
-### Setup
-
-- Git clone this repo and cd the to the directory.
-- Run bundle install in command line
-- Run rails db:migrate in command line
-- Run rails console in command line
-- Play in the console with different associations between Users, Posts and Comments:
-
-u = User.create(:name => "your_name")
-p = Post.create(:title => "your_title", :body => "your_boby", :user_id => u.id)
-c = Comment.create(:body => "your_body", :post_id => p.id, :user_id => u.id)
-
-### Install
-
-- Install VSCode or any code editor you like
-- Install Node JS and nmp(most recents versions)
-- Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev
+- Clone the project to your local machine;
+- `cd` into the project directory;
+- Run `bundle install` to install the necessary gems;
+- Run `rails db:create`;
+- Run `rails db:migrate`;
+- Run `rails s` to start a server in your computer;
+- In your browser address, type the following URL: [localhost:3000](localhost:3000);
+- Enjoy the App and its functionalities!
 
 ## Authors
 
@@ -76,5 +61,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Reddit.com](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
-
-## 📝 License
